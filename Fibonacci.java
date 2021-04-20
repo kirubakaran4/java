@@ -23,7 +23,7 @@ public static void main(String args[])
 //Fibonacci without recursion  
 
 
-public Fibonacci2{
+class Fibonacci2{
    public static void main(String args[]) {
        int n1 = 0, n2 = 1, n3, i, max = 10;
        System.out.print(n1 + " " + n2);
