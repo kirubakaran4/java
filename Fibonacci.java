@@ -1,9 +1,9 @@
 //Fibonacci using recursion
 
 
-class Fibonacci1{ 
+public class Fibonacci1{ 
 
-    static int fib(int n) 
+     int fib(int n) 
 
     { 
 
@@ -15,25 +15,32 @@ class Fibonacci1{
 
     } 
 
-    public static void main(String args[]) 
-
-    { 
+    void fib()
+    {
         int N = 10;
-        for (int i = 0; i < N; i++) { 
+       
+        for (int i = 1; i <= N; i++) { 
         System.out.print(fib(i) + " "); 
 
         } 
 
-    } 
-} 
+    
+    }
+    public static void main(String args[]) 
 
+    { 
+        Fibonacci1 f= new Fibonacci1();
+        f.fib();
+}
+    
+}
 
 
 
 //Fibonacci without recursion  
 
 
-class Fibonacci2{
+public class Fibonacci2{
    public static void main(String args[]) {
        int n1 = 0, n2 = 1, n3, i, max = 10;
        System.out.print(n1 + " " + n2);
